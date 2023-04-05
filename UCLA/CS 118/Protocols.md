@@ -21,7 +21,7 @@ tags:
   host, i.e. TCP or UDP
   - It doesn't know/care about which paths data takes through the network
   - Different transport protocols exist for different purposes (i.e.
-    reliability, congestion control)
+    reliability, congestion control, [[Network Performance|performance]], etc.)
 - Network layer protocol: Forwards packets from source to destination, i.e. IP
   - Very hard, as there are many different parties involved (client, ISP,
     server, etc.)

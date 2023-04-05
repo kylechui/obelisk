@@ -1,5 +1,5 @@
 ---
-id: "Performance"
+id: "Network Performance"
 aliases: []
 tags:
   - "CS 118"

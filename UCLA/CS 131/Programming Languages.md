@@ -7,10 +7,8 @@ tags:
   - "CS 131"
 ---
 
-# Programming Languages
-
 - All programming languages are built upon a common set of
-  [[Paradigms|paradigms]]
+  [[Programming Paradigms|paradigms]]
   - We want to recognize these patterns to be able to grok new languages quickly
   <!-- Definition: Programming Language -->
 - **Programming Language:** A system of communication designed to express

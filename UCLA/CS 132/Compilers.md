@@ -49,16 +49,5 @@ tags:
   - Has a [[Front End|front end]] and [[Back End|back end]]
     - Or even multiple front ends!
   - Multiple passes should yield better code
-
-## Optimizing Compilers
-
-- The optimizer analyzes and changes the IR to reduce runtime, while preserving
-  values
-- Nowadays typically implemented in multiple passes
-  - Each pass can perform:
-    - Constant propagation and folding
-    - Code motion
-    - Reduction of operator strength
-    - Common sub-expression elimination
-    - Redundant store elimination
-    - Dead code elimination
+- The optimizer analyzes and changes the IR to
+  [[Compiler Optimizations|reduce runtime]], while preserving values
