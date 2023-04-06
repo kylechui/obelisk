@@ -2,7 +2,7 @@
 id: "Network Performance"
 aliases: []
 tags:
-  - "CS 118"
+  - "CS118"
 ---
 
 - Three basic measurements:

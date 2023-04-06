@@ -2,7 +2,7 @@
 id: "Scanners"
 aliases: []
 tags:
-  - "CS 132"
+  - "CS132"
 ---
 
 - It should recognize various parts of the languages syntax

@@ -1,9 +1,8 @@
 ---
-id: "Syntax_1680627879"
-aliases:
-  - "Syntax"
+id: "Syntax"
+aliases: []
 tags:
-  - "CS 131"
+  - "CS131"
 ---
 
 - **Syntax**: The legal combinations of tokens that yield a meaningful program

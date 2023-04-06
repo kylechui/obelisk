@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UCLA/CS 118/Networking.md",
+                "file": "UCLA/CS 132/LL Parsing.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#131",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UCLA/CS 118/Networking.md",
+                "file": "UCLA/CS 132/LL Parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UCLA/CS 118/Networking.md",
+                "file": "UCLA/CS 132/LL Parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,11 +127,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UCLA/CS 118/Networking.md"
+                "file": "UCLA/CS 132/LL Parsing.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -149,6 +151,28 @@
   },
   "active": "6c527e0f3d61e533",
   "lastOpenFiles": [
+    "UCLA/CS 132/Top-down Parsing.md",
+    "Predictive Parsing.md",
+    "UCLA/CS 132/Predictive Parsing.md",
+    "UCLA/CS 132/4913",
+    "UCLA/CS 132/Parsing.md",
+    "UCLA/CS 132/Parsing",
+    "Top-down Parsing.md",
+    "UCLA/CS 132/LL Parsing.md",
+    "UCLA/CS 132/Syntax Analysis.md",
+    "LL Parsing.md",
+    "UCLA/CS 132/Syntax Analysis.md~",
+    "UCLA/CS 132/Ambiguity.md",
+    "Ambiguity.md",
+    "Syntax Analysis.md",
+    "UCLA/CS 131/Haskell.md",
+    "UCLA/CS 132/Interpreters.md",
+    "Data Types.md",
+    "UCLA/CS 131/Functional Programming.md",
+    "UCLA/CS 131/Referential Transparency.md",
+    "UCLA/CS 131/Interpreters.md",
+    "Functional Programming.md",
+    "UCLA/CS 118/Networking.md",
     "UCLA/CS 118/Performance.md",
     "UCLA/CS 118/Network Performance.md",
     "UCLA/CS 131/Programming Languages.md",
@@ -157,30 +181,10 @@
     "UCLA/CS 132/Compilers.md",
     "Compiler Optimizations.md",
     "UCLA/CS 131/Programming Paradigms.md",
-    "UCLA/CS 131/Parameter Passing.md",
-    "UCLA/CS 131/Paradigms.md",
-    "Performance.md",
     "4913",
-    "UCLA/CS 118/Protocols.md",
-    "UCLA/CS 118/Packet Switching.md",
-    "Packet Switching.md",
     "UCLA/CS 118/4913",
-    "Protocols|Protocols.md",
-    "Protocol|Protocols.md",
-    "UCLA/CS 118/Protocol.md",
     "UCLA/CS 118/Protocols",
-    "UCLA/CS 118/Networking.md",
-    "Protocol.md",
-    "2023-04-04.md",
-    "bruh.md",
-    "hello.md",
-    "Networking.md",
     "indent.log",
-    "UCLA/CS 132/4913",
-    "UCLA/CS 132/Front End.md",
-    "UCLA/CS 131/Semantics.md",
-    "UCLA/CS 132/Back End.md",
-    "README.md",
     "UCLA/CS 132/Interpreters.md~"
   ]
 }

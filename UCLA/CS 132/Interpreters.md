@@ -1,7 +1,8 @@
 ---
 id: "Interpreters"
 aliases: []
-tags: []
+tags:
+  - "CS132"
 ---
 
 - **Interpreter**: A program that directly executes program statements, without

@@ -3,8 +3,8 @@ id: "Compilers"
 aliases:
   - "Abstract View"
 tags:
-  - "CS 131"
-  - "CS 132"
+  - "CS131"
+  - "CS132"
 ---
 
 - **Linker**: A program that combines multiple object modules and libraries into

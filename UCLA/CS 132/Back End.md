@@ -2,7 +2,7 @@
 id: "Back End"
 aliases: []
 tags:
-  - "CS 132"
+  - "CS132"
 ---
 
 - The back end is language-agnostic, but architecture-specific

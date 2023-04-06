@@ -2,7 +2,7 @@
 id: "Compiler Optimizations"
 aliases: []
 tags:
-  - "CS 132"
+  - "CS132"
 ---
 
 - Nowadays typically implemented in multiple passes

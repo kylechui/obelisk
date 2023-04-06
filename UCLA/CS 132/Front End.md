@@ -2,7 +2,7 @@
 id: "Front End"
 aliases: []
 tags:
-  - "CS 132"
+  - "CS132"
 ---
 
 - The front end is language-specific, but architecture-agnostic

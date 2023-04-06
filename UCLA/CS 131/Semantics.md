@@ -1,9 +1,8 @@
 ---
-id: "Semantics_1680627841"
-aliases:
-  - "Semantics"
+id: "Semantics"
+aliases: []
 tags:
-  - "CS 131"
+  - "CS131"
 ---
 
 - **Semantics**: What the meaning of a syntactically valid program is

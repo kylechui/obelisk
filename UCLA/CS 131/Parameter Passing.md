@@ -1,9 +1,8 @@
 ---
-id: "Parameter Passing_1680627898"
-aliases:
-  - "Parameter Passing"
+id: "Parameter Passing"
+aliases: []
 tags:
-  - "CS 131"
+  - "CS131"
 ---
 
 - Pass by value: The formal parameter is a copy of the original variable

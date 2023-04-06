@@ -3,7 +3,7 @@ id: "Networking"
 aliases:
   - "What is a computer network?"
 tags:
-  - "CS 118"
+  - "CS118"
 ---
 
 - Goal: Learn how the internet works

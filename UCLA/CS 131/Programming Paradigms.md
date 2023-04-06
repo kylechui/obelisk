@@ -1,9 +1,8 @@
 ---
-id: "Paradigms_1680627916"
-aliases:
-  - "Paradigms"
+id: "Programming Paradigms"
+aliases: []
 tags:
-  - "CS 131"
+  - "CS131"
 ---
 
 - Imperative

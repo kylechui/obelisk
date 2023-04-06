@@ -2,7 +2,7 @@
 id: "Packet Switching"
 aliases: []
 tags:
-  - "CS 118"
+  - "CS118"
 ---
 
 - Statistical multiplexing

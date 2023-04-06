@@ -3,7 +3,7 @@ id: "Protocols"
 aliases:
   - "Internet Protocol Stack"
 tags:
-  - "CS 118"
+  - "CS118"
 ---
 
 - A format for sending and receiving messages

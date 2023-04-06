@@ -1,10 +1,8 @@
 ---
 id: "Programming Languages"
-aliases:
-  - "Programming Languages"
-  - "programming languages"
+aliases: []
 tags:
-  - "CS 131"
+  - "CS131"
 ---
 
 - All programming languages are built upon a common set of
