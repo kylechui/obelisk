@@ -19,4 +19,4 @@ tags:
 - Each language makes dozens of design choices (type system,
   [[Parameter Passing|parameter passing]], scoping, memory management, etc.)
 - What's needed to specify the details of a programming language?
-  - [[Syntax|syntax]] and [[Semantics|semantics]]
+  - [[Syntax|Syntax]] and [[Semantics|semantics]]

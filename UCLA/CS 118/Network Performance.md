@@ -1,6 +1,7 @@
 ---
 id: "Network Performance"
-aliases: []
+aliases:
+  - "Packet Switching: Store-and-Forward"
 tags:
   - "CS118"
 ---
@@ -16,8 +17,13 @@ tags:
   - Delay (msec)
     - Four sources of delay:
       - Node processing: checking for bit errors, determining output link
-      - Transmission of the packet: link bandwidth / packet length
+      - Transmission of the packet: packet length / link bandwidth
       - Propagation of the packet: physical length of link / propagation speed
         in medium
       - Queueing: number of packets in queue $\cdot$ transmission time per
         packet
+
+## Packet Switching: Store-and-Forward
+
+- The entire packet must arrive at the router before it can start to be
+  transmitted to the next link
