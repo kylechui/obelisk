@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UCLA/CS 118/HTTP.md",
+                "file": "UCLA/CS 132/Type Checking.md",
                 "mode": "preview",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UCLA/CS 118/HTTP.md",
+                "file": "UCLA/CS 132/Type Checking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UCLA/CS 118/HTTP.md",
+                "file": "UCLA/CS 132/Type Checking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UCLA/CS 118/HTTP.md"
+                "file": "UCLA/CS 132/Type Checking.md"
               }
             }
           }
@@ -151,9 +151,13 @@
   },
   "active": "6ec21368eeb51b0d",
   "lastOpenFiles": [
+    "UCLA/CS 132/Type Checking.md~",
+    "UCLA/CS 132/4913",
+    "UCLA/CS 118/HTTP.md",
+    "UCLA/CS 132/Type Checking.md",
+    "Type Checking.md",
     "UCLA/CS 118/4913",
     "UCLA/CS 132/Java Compiler Compiler.md",
-    "UCLA/CS 132/4913",
     "Java Compiler Compiler.md",
     "UCLA/CS 131/Programming Languages.md",
     "UCLA/CS 132/Parsing.md",
@@ -181,9 +185,6 @@
     "UCLA/CS 132/Syntax Analysis.md",
     "LL Parsing.md",
     "UCLA/CS 132/Syntax Analysis.md~",
-    "UCLA/CS 132/Ambiguity.md",
-    "Ambiguity.md",
-    "Syntax Analysis.md",
     "UCLA/CS 132/Compilers.md~",
     "4913",
     "UCLA/CS 118/Protocols"
