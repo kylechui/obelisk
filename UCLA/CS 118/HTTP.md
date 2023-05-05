@@ -80,8 +80,8 @@ http://<host name>:<port number?>/<path name>
 
 - Pipelining isn't good enough
 - Head-of-line blocking: The requests are handled in sequential order
-  - A request for a large file or some dynamic computation can block all
-    requests
+  - A request for a large file or some dynamic (or large) computation can block
+    all subsequent requests
   - A workaround is to open multiple TCP connections
 - If there is a large header with repetitive information in queries, HTTP/1.1
   suffers
@@ -89,7 +89,11 @@ http://<host name>:<port number?>/<path name>
 ## HTTP/2
 
 - Splits the message into header and data frames
-  - Header is compressed
+  - Header is compressed by reusing fields from earlier requests, reducing
+    overhead
 - A single TCP connection is used for each browser-server connection
   - Each of the requests are treated as a stream, which are multiplexed
 - Server push
+- Frame: Basic communication unit
+- Message: An HTTP request or response
+- Stream: A virtual channel with priority, carrying frames in both directions
