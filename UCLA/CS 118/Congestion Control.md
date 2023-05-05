@@ -2,7 +2,8 @@
 id: "Congestion Control"
 aliases:
   - "How Network Congestion Happens"
-tags: []
+tags:
+  - "CS118"
 ---
 
 ## How Network Congestion Happens

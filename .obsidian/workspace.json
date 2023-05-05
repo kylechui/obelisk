@@ -4,29 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8ec2d64fcd63597e",
+        "id": "1f02e8e29053f923",
         "type": "tabs",
         "children": [
           {
-            "id": "9fbbcb5e14788eb4",
+            "id": "ca57f28cb6018785",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UCLA/CS 132/Linear Scan Register Allocation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0305aacdb61d2d4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.7"
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -105,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UCLA/CS 132/Linear Scan Register Allocation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +107,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UCLA/CS 132/Linear Scan Register Allocation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +128,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "UCLA/CS 132/Linear Scan Register Allocation.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -167,8 +149,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9fbbcb5e14788eb4",
+  "active": "ca57f28cb6018785",
   "lastOpenFiles": [
+    "UCLA/CS 118/Congestion Control.md",
+    "UCLA/CS 131/Functional Programming.md",
     "UCLA/CS 132/Linear Scan Register Allocation.md",
     "UCLA/CS 132/Register Allocation.md",
     "UCLA/CS 132/4913",
@@ -178,7 +162,6 @@
     "UCLA/CS 132/Bruh.md",
     "UCLA/CS 132/Compiler Optimizations.md",
     "Bruh.md",
-    "UCLA/CS 118/Congestion Control.md",
     "Congestion Control.md",
     "UCLA/CS 118/TCP.md",
     "UCLA/CS 132/Type Checking.md",
