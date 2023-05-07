@@ -42,6 +42,7 @@ tags:
 
 - In general, the language does not necessarily prevent operations on
   incompatible types or memory
+  - We can get undefined behavior at runtime!
 
 ## Reflection
 
