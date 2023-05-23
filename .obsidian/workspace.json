@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1f02e8e29053f923",
+        "id": "d51d21041cc3cee6",
         "type": "tabs",
         "children": [
           {
-            "id": "ca57f28cb6018785",
+            "id": "56947b6edcf53f32",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "UCLA/CS 131/Inheritance.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -91,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "UCLA/CS 131/Inheritance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "UCLA/CS 131/Inheritance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "UCLA/CS 131/Inheritance.md"
+              }
             }
           }
         ],
@@ -149,16 +157,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca57f28cb6018785",
+  "active": "56947b6edcf53f32",
   "lastOpenFiles": [
+    "UCLA/CS 131/Programming Languages.md",
+    "UCLA/CS 131/Syntax.md",
+    "UCLA/CS 131/Type Systems.md",
+    "UCLA/CS 131/Inheritance.md",
+    "UCLA/CS 131/4913",
+    "UCLA/CS 131/Object Oriented Programming.md",
+    "Inheritance.md",
+    "UCLA/CS 132/4913",
+    "UCLA/CS 132/Top-down Parsing.md",
+    "Untitled.md",
+    "UCLA/CS 131/Error Handling.md",
+    "Books/Types and Programming Languages/4913",
+    "Books/Types and Programming Languages/Untyped Arithmetic Expressions.md~",
     "UCLA/CS 118/Congestion Control.md",
     "UCLA/CS 131/Functional Programming.md",
     "UCLA/CS 132/Linear Scan Register Allocation.md",
     "UCLA/CS 132/Register Allocation.md",
-    "UCLA/CS 132/4913",
     "UCLA/CS 132/Linear Scan Register Allocation.md~",
     "Linear Scan Register Allocation.md",
-    "Untitled.md",
     "UCLA/CS 132/Bruh.md",
     "UCLA/CS 132/Compiler Optimizations.md",
     "Bruh.md",
@@ -166,27 +185,16 @@
     "UCLA/CS 118/TCP.md",
     "UCLA/CS 132/Type Checking.md",
     "UCLA/CS 132/Types.md",
-    "UCLA/CS 131/4913",
     "UCLA/CS 132/Translate to Intermediate Representation.md",
     "hw3.md",
     "hi.md",
     "UCLA/CS 132/Visitor Pattern.md~",
     "UCLA/CS 132/Intermediate Representation.md",
     "UCLA/CS 132/Operational Semantics.md",
-    "UCLA/CS 132/Operation Semantics.md",
-    "Operation Semantics.md",
     "UCLA/CS 132/Intermediate Representation.md~",
-    "Intermediate Representation.md",
-    "Hello.md",
     "Intermediate Representation",
-    "Resource Record.md",
     "UCLA/CS 118/4913",
-    "UCLA/CS 118/Domain Name System.md",
-    "UCLA/CS 118/Application Layer Protocols.md",
-    "Application Layer Protocols.md",
     "UCLA/CS 132/Types.md~",
-    "UCLA/CS 132/Type Checking.md~",
-    "HTTP.md~",
     "Untitled.canvas"
   ]
 }
