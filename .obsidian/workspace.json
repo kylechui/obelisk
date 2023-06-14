@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d51d21041cc3cee6",
+        "id": "b540aaaa71c06085",
         "type": "tabs",
         "children": [
           {
-            "id": "56947b6edcf53f32",
+            "id": "6e6c358efb5a211c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UCLA/CS 131/Inheritance.md",
+                "file": "UCLA/CS 131/Logic Programming.md",
                 "mode": "preview",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UCLA/CS 131/Inheritance.md",
+                "file": "UCLA/CS 131/Logic Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UCLA/CS 131/Inheritance.md",
+                "file": "UCLA/CS 131/Logic Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UCLA/CS 131/Inheritance.md"
+                "file": "UCLA/CS 131/Logic Programming.md"
               }
             }
           }
@@ -157,20 +157,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56947b6edcf53f32",
+  "active": "6e6c358efb5a211c",
   "lastOpenFiles": [
+    "test.md",
+    "UCLA/CS 131/Logic Programming.md",
+    "UCLA/CS 131/4913",
+    "UCLA/CS 131/Concurrency.md",
+    "Logic Programming.md",
+    "UCLA/CS 132/4913",
+    "UCLA/CS 131/Flow Control.md",
+    "UCLA/CS 132/Data Flow Analysis.md",
+    "UCLA/CS 132/Data Flow Analysis.md~",
+    "UCLA/CS 131/Inheritance.md",
+    "Books/Types and Programming Languages/4913",
+    "Books/Types and Programming Languages/Untyped Lambda Calculus.md",
     "UCLA/CS 131/Programming Languages.md",
     "UCLA/CS 131/Syntax.md",
     "UCLA/CS 131/Type Systems.md",
-    "UCLA/CS 131/Inheritance.md",
-    "UCLA/CS 131/4913",
     "UCLA/CS 131/Object Oriented Programming.md",
     "Inheritance.md",
-    "UCLA/CS 132/4913",
     "UCLA/CS 132/Top-down Parsing.md",
     "Untitled.md",
     "UCLA/CS 131/Error Handling.md",
-    "Books/Types and Programming Languages/4913",
     "Books/Types and Programming Languages/Untyped Arithmetic Expressions.md~",
     "UCLA/CS 118/Congestion Control.md",
     "UCLA/CS 131/Functional Programming.md",
@@ -183,18 +191,10 @@
     "Bruh.md",
     "Congestion Control.md",
     "UCLA/CS 118/TCP.md",
-    "UCLA/CS 132/Type Checking.md",
-    "UCLA/CS 132/Types.md",
-    "UCLA/CS 132/Translate to Intermediate Representation.md",
-    "hw3.md",
-    "hi.md",
     "UCLA/CS 132/Visitor Pattern.md~",
-    "UCLA/CS 132/Intermediate Representation.md",
-    "UCLA/CS 132/Operational Semantics.md",
     "UCLA/CS 132/Intermediate Representation.md~",
     "Intermediate Representation",
     "UCLA/CS 118/4913",
-    "UCLA/CS 132/Types.md~",
     "Untitled.canvas"
   ]
 }

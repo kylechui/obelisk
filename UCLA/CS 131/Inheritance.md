@@ -68,3 +68,51 @@ tags:
 - Objects in JavaScript have a `__proto__` field that points to a parent object
   - You can change the `__proto__` to point to a different object, giving you
     inheritance
+
+## Multiple Inheritance
+
+- In general, multiple inheritance is an _anti-pattern_ and should not be used
+- It leads to the _diamond pattern_, where two classes may inherit from the same
+  base class and are inherited from by the same derived class
+  - The most derived class could access a base field in multiple ways, causing
+    race conditions at best and incorrect behavior at worst
+- A good alternative is to inherit multiple _interfaces_
+  - Even though the interfaces can specify the same function, implementing one
+    function takes care of _both_ cases
+  - It also allows for overloading, as there would be no ambiguity
+
+## Inheritance and Typing
+
+- Every time you define a class or interface, a new type is implicitly defined
+  - Types associated with a concrete class are called _value types_
+    - They can be used to define references, object references, pointers, and
+      instantiate objects
+  - Type associated with an interface or abstract class are called _reference
+    types_
+    - They can only be used to define references, object references, and
+      pointers
+- Subclass relationships have implied subtype relationships
+- If a class implements an interface, the type of the class is a subtype of the
+  type of the interface
+
+## Subtype Polymorphism
+
+- Subtype polymorphism is the ability to substitute an object of a subtype
+  wherever an object of a supertype is expected
+  - Methods of the subtype _should_ support the same _semantics_ as those of the
+    supertype
+
+## Dynamic Dispatch
+
+- Dynamic dispatch is a runtime algorithm used to determine what method to call
+  when an object calls a method
+- Statically typed languages look at the class of the object to determine the
+  right method to call
+  - A virtual method table is used to point the names of virtual methods to
+    their implementations
+- Dynamically typed languages check if the target object has a matching method
+  to call
+  - A virtual method table is stored directly in the object itself, and is
+    queried whenever a method is called
+- Sometimes the method can be determined at compile-time via static dispatch
+  - There is only one instance of the method, and no ambiguity

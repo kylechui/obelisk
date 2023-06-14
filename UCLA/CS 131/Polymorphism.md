@@ -1,7 +1,6 @@
 ---
 id: "Polymorphism"
 aliases:
-  - "Parametric Polymorphism: Templates"
   - "Parametric Polymorphism"
 tags:
   - "CS131"
