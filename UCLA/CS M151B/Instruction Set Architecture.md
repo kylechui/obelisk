@@ -17,3 +17,6 @@ tags:
     - Operations (e.g. add)
 - The hardware sees:
   - A list of instructions and their order
+- ISAs are typically designed with some microarchitectural style in mind, but
+  can be implemented using any style
+  - This class focuses on [[RISC-V]], which utilizes the hardwired, pipelined styles
