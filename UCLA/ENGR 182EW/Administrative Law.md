@@ -1,8 +1,8 @@
 ---
 id: "Administrative Law"
-aliases:
+aliases: []
+tags:
   - "ENGR182EW"
-tags: []
 ---
 
 - They are law around federal agencies, which are parts of the government that

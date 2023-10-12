@@ -1,8 +1,8 @@
 ---
 id: "Letter from Birmingham Jail"
-aliases:
+aliases: []
+tags:
   - "ENGR182EW"
-tags: []
 ---
 
 - MLK is jailed in Birmingham city jail
