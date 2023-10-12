@@ -18,12 +18,14 @@ tags:
   - Immediate: Constant value (smaller than 32-bit)
   - Memory address
 
+![](./riscv_instructions.png)
+
 ## Registers
 
 - There are 32 registers, each 32-bit (1 word)
 - They are named $x_0$ through $x_{31}$
   - $x_0$ is hardwired to 0 (ground)
-- They are stored in a register file (e.g. array of registers)
+- They are stored in a [[Register File|register file]]
 - Higher-end systems (not covered in this class) also have separate registers
   for dealing with floating point values, e.g. $f_0, f_1,\dotsc$
 
@@ -31,6 +33,9 @@ tags:
 
 - Constant values
 - Immediates aren't 32-bit because there isn't enough space
+  - This is because each _instruction_ is 32 bits, and we need 5 bits per
+    register ($\log_2(32) = 5$) and a few more bits to indicate which operation
+    we are performing
   - When doing computation with immediates and register values, we need to
     perform sign extensions
 

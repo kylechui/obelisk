@@ -1,11 +1,12 @@
 ---
 id: "Instruction Set Architecture"
-aliases:
-  - "ISA"
+aliases: []
 tags:
   - "CSM151B"
 ---
 
+- An ISA is basically just an interface for what operations the
+  [[Microarchitecture|hardware]] promises to implement
 - The software will always provide some program that contains a list of known
   instructions, and the hardware only needs to promise to execute those
   instructions

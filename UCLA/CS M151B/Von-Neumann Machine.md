@@ -11,3 +11,4 @@ tags:
 - The machine is a kind of [[Finite State Machine|finite state machine]]
   - A program counter identifies the current instruction
   - Each instruction maps the current state of the machine to a new state
+    - The program counter gets updated as a part of the state
