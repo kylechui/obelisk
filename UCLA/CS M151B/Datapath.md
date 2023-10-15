@@ -5,6 +5,8 @@ tags:
   - "CSM151B"
 ---
 
+- In general, all possible signals are generated in parallel, since it is better
+  to perform unnecessary work in exchange for lower latency
 - A signal `PCSrc` is created depending on whether the instruction is a `jump`
   instruction or not, and is used to multiplex whether we use:
   - The current program counter and hard-code the sum `PC + 4` (branchless case)
@@ -18,13 +20,3 @@ tags:
 - A signal `ALUSrc` is created depending on whether the input is a register or
   immediate-type instruction, and that is used to multiplex the input of the
   [[Arithmetic Logic Unit|ALU]]
-
-## Control Signals
-
-- `RegWrite`: Are we writing to register file?
-- `ALUSrc`: Are we using `rs2` or an immediate?
-- `ALUOp`: Which ALU operation are we doing?
-- `MemRead, MemWrite`: Are we performing a load/store?
-- `MemtoReg`: Is the value that's going to be written to the register file
-  coming from memory or the ALU?
-- `PCSrc`: Did we branch?

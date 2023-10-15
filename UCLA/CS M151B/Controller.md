@@ -13,4 +13,5 @@ tags:
     [[Register File|from registers]], [[Loading Data From Memory|from memory]],
     or an [[Loading Immediates|immediate]]
   - It essentially takes the 32-bit instruction as input, and outputs a bunch of
-    control signals (e.g. register indices, read/write signals, etc.)
+    [[Control Signals|control signals]] (e.g. register indices, read/write
+    signals, etc.)
