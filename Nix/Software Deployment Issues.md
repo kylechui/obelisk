@@ -5,10 +5,14 @@ tags:
   - "Nix"
 ---
 
-
 - The goal for [[Software Deployment|software deployment]] should be:
   - For given inputs, the software on an end-user's machine should have
     identical behavior as on the developer machine
+- We call deployments "correct" if they are _complete_ and components _do not
+  interfere_ with one another
+  - Completeness means that all dependencies exist
+  - Interference occurs when multiple software components occupy the same
+    namespace, making it impossible to distinguish between them
 - There are two broad categories of issues preventing distribution from being as
   simple as "copy the files over"
 
@@ -41,4 +45,3 @@ tags:
     fails due to changes in the environment
 - Administrators often want to query properties of the system, e.g. size
 - We want to be able to roll back changes if an upgrade causes some failure
-
