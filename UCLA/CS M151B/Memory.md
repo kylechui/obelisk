@@ -1,8 +1,8 @@
 ---
-id: "Memory"
+id: Memory
 aliases: []
 tags:
-  - "CSM151B"
+  - CSM151B
 ---
 
 - Memory is organized as an array of registers
@@ -25,3 +25,4 @@ tags:
   - Disk (SSD, HDD):
     - Much slower, non-volatile
     - Very cheap
+- The memory is organized in a [[Memory Hierarchy|memory hierarchy]]
