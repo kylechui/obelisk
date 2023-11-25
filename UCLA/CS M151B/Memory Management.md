@@ -24,10 +24,5 @@ tags:
 - Another way is to only partially partition the memory
   - Divide the memory into fixed-size blocks (pages)
   - We expose [[Virtual Addresses|virtual addresses]] to the programs
-  - Use a page table to map virtual page numbers to physical page numbers
-    - We assume the page offset remains unchanged, so all we need to do is
-    - Use a base register to figure out which process is indexing into the page
-      table
-    - We can also store some protections and flags in each page table entry
-      (PTE)
-      - Write/read/execute, ownership
+  - Use a [[Page Table|page table]] to map virtual addresses to physical
+    addresses
