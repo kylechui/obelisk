@@ -1,9 +1,10 @@
 ---
-id: "Register File"
+id: Register File
 aliases: []
 tags:
-  - "CSM151B"
+  - CSM151B
 ---
+
 
 - Basically just an array of registers
 - Can be indexed into, e.g. $x_i$ is the $i$th register
@@ -13,3 +14,4 @@ tags:
   instruction to get register indices
   - Sometimes this computation is unnecessary, but it reduces latency because it
     is done in parallel
+
