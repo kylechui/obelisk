@@ -21,3 +21,8 @@ tags:
   is a pullback of $g$ along $f$
   - Note that the pullback itself consists of both $f', g'$, as well as the
     object $P$
+- Pullbacks can be thought of as a sort of "constrained [[Products|product]]"
+  - In particular, the constraint is that all paths from $X$ to $C$ must be
+    equal
+  - In a sense, a pullback of $A$ and $B$ over $C$ is somewhat like the product
+    of $A$ and $B$, relative to some "context" provided by $C$
