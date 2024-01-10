@@ -5,6 +5,8 @@ tags:
   - Math110A
 ---
 
+- **NOTE**: The argument is more or less the same for the more general case
+  where $b\neq 0$.
 - Let $a, b\in \mathbb Z$, such that $b > 0$. Then there exists unique
   $q, r\in \mathbb Z$ such that $a = bq + r$, where $0 \leq r < b$.
 - **Proof**: Let $a, b\in \mathbb{Z}$, with $b > 0$. Consider the set
@@ -39,5 +41,6 @@ tags:
   \end{align*}
   $$
 
-  Since $0\leq r, r' < b$, and $b\mid (r' - r)$, we have $r - r' = 0$, so
-  $r = r'$. Thus $b(q - q') = 0$, so $q = q'$.
+  Since $0\leq r < b$, we have $-b < -r \leq 0$. Furthermore, as
+  $0 \leq r' < b$, we have $-b < r' - r < b$. Since $b\mid r' - r$, we have
+  $r' - r = 0$ and $q - q' = 0$. Therefore $r = r'$, $q = q'$.
