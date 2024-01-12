@@ -19,7 +19,8 @@ tags:
     $$
 - Subtraction principle: If $A$ and $B$ are finite sets with $B\subset A$, then
   $|A\setminus B| = |A| - |B|$
-- Division principle: TODO
+- Division principle: If we have a mapping $f\colon A\to B$ and for all
+  $b\in B$, $|f^{-1}(b)| = d$, then $|B| = \frac{|A|}{d}$
 
 ## Helpful Facts/Definitions
 
