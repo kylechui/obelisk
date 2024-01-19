@@ -34,22 +34,9 @@ Next: [[Math 110A Lecture 6]]
 - **Proof**:
 
   - ($\Rightarrow$) Suppose $[a]$ has a multiplicative inverse $[x]$ so
-    $[a][x] = 1$. Suppose towards a contradiction that $\gcd(a, n)\neq 1$, so
-    there exists some $d\in \mathbb{Z}$ such that $1 < d < n$ and $d\mid a$ and
-    $d\mid n$. Thus there exists $c\in \mathbb{Z}$ such that $a = cd$, and
-    $[cd][x] = [1] = [d][cx]$. Furthermore, there exists $f\in \mathbb{Z}$ such
-    that $1 < f < n$ and $n = df$. Then we have:
-
-    $$
-      \begin{align*}
-        [f] &= [cd][x][f] \\
-        &= [cx][df] \\
-        &= [0],
-      \end{align*}
-    $$
-
-    a contradiction. Therefore $\gcd(a, n) = 1$.
-
+    $ax\equiv 1\pmod n$. Then there exists $k\in \mathbb{Z}$ such that
+    $ax - 1 = kn$. Rewriting this, we have $ax - nk = 1$, so
+    $\gcd(a, n) \mid 1$. This implies that $\gcd(a, n) = 1$, as desired.
   - ($\Leftarrow$) Suppose $\gcd(a, n) = 1$. By [[Bezout Identity]], there
     exists $x, y\in \mathbb{Z}$ such that $ax + ny = 1$. Thus $[ax] = [1]$, so
     $[x]$ is the inverse of $[a]$.
