@@ -12,6 +12,6 @@ tags:
     $0 < c \leq \gcd(a, b)$
 - Let $a, b, c\in \mathbb{Z}$. Suppose $a\mid bc$ and $\gcd(a, b) = 1$. Then
   $a\mid c$.
-  - **Proof**: Since $\gcd(a, b) = 1$, we may use the [[Euclidean Algorithm]] to
+  - **Proof**: Since $\gcd(a, b) = 1$, we may use the [[Bezout Identity]] to
     write $1 = ax + by$. Then $c = acx + bcy$. Since $a\mid bc$, we may rewrite
     to $c = acx + azy = a(cx + zy)$. Therefore $a\mid c$.
