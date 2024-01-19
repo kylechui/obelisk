@@ -5,6 +5,8 @@ tags:
   - Math110A
 ---
 
+Next: [[Math 110A Lecture 4]]
+
 - **Theorem**: Let $p\in \mathbb{Z}$ such that $p\neq 0, \pm 1$. The following
   are equivalent:
 
