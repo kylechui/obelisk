@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "ETBook OT Roman";
+  src: url("https://raw.githubusercontent.com/edwardtufte/et-book/gh-pages/et-book-ligatures-enabled/et-book-roman-old-style-figures/etbookot-roman-webfont.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "ETBook OT Roman";
+  font-weight: bold;
+  src: url("https://raw.githubusercontent.com/edwardtufte/et-book/gh-pages/et-book-ligatures-enabled/et-book-bold-line-figures/etbookot-bold-webfont.woff")
+    format("woff");
+}
+
+.markdown-preview-view {
+  font-family: "ETBook OT Roman" !important;
+}
