@@ -20,9 +20,11 @@ Next: [[Math 180 Lecture 7]]
       0 & \text{otherwise}
     \end{cases}
   $$
-- The $(i, j)$-entry of $A^k$ is the number of paths of length $k$ from $i$ to
-  $j$.
+  - This matrix is a symmetric $0-1$ matrix with 0's along the diagonal
+- The $(i, j)$-entry of $A^k$ is the number of paths of length $k$ from $v_i$ to
+  $v_j$.
   - We use the notation $Z_{ij}^k$
+- The _degree_ $\deg(v)$ of a vertex $v$ is the number of edges incident to $v$
 - Let $v_1,\dotsc,v_n$ be the vertices $G$. Then the sequence
   $\deg(v_1), \deg(v_2),\dotsc,\deg(v_n)$ arranged in weakly increasing order is
   called the _degree sequence_ or _score_ of $G$
