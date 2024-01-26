@@ -47,4 +47,6 @@ Next: [[Math 110A Lecture 8]]
   $r_i(r_j - r_k) = 0$. Since $R$ is an [[Integral Domain|integral domain]], we
   know that $r_i = 0$ or $r_j - r_k = 0$. Therefore $r_j = r_k$. Therefore we
   have an injection from $R$ to $r_iR$, so $|R|\leq |r_iR|$. Therefore
-  $|R| = |r_iR|$, and so $r_iR = R$.
+  $|R| = |r_iR|$, and so $r_iR = R$. Since $1\in R$, we know that there exists
+  some $r_j$ such that $r_ir_j = 1$, so $r_i$ is a [[Unit|unit]]. Therefore $R$
+  must be a [[Field|field]].
