@@ -36,7 +36,7 @@ Next: [[Math 180 Lecture 8]]
   - ($\Leftarrow$) Suppose $D'$ is a degree sequence. We can create a graph out
     of it. To get a graph for $D$, we add a new vertex and have an edge connect
     to each of the last $d_n$ vertices in the original graph.
-- Eulerian walk: A closed walk in a graph $G$ that uses every edge exactly once
+- Eulerian cycle: A closed walk in a graph $G$ that uses every edge exactly once
 - For a connected graph $G$, the following are equivalent:
   - $G$ has a closed Eulerian walk
   - All vertices of $G$ have even degree
@@ -53,4 +53,9 @@ Next: [[Math 180 Lecture 8]]
     - Let $V(T) = \{\text{vertices in }T\}$. We wish to show $V(T) = V$. If
       there existed some $v_k\notin V(T)$, then there exists some vertex
       $v\in V(T)$ such that $\{v, v_k\}\in E$ (otherwise $G$ would be
-      disconnected). Then $T$ would not be a maximal tour, so
+      disconnected). Then $T$ would not be a maximal tour, since we could start
+      at $v_k$, then take the tour $T$ to get a longer tour. Therefore
+      $V(T) = V$.
+    - Finally, we wish to show that $E(T) = E$. If there exists some $e\in E$
+      where $e\notin E(T)$, we could start our tour with $e$ then follow $T$,
+      contradicting $T$'s maximality.
