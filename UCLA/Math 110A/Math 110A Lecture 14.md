@@ -20,4 +20,5 @@ Next: [[Math 110A Lecture 15]]
   then $p\mid a$ or $p\mid b$. Hence $a\in p\mathbb{Z}$ or $b\in p\mathbb{Z}$.
 - Let $R$ be an [[Integral Domain|integral domain]]. Then $\{0\}\subseteq R$ is
   a [[Prime Ideal|prime ideal]].
-- Let $R = \mathbb{R}[x]$. Then $xR$ is a [[Prime Ideal|prime ideal]].
+- Let $R = \mathbb{R}[x, y]$. Then $xR$ is a [[Prime Ideal|prime ideal]], but
+  not [[Maximal Ideal|maximal]].
