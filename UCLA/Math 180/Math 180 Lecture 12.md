@@ -24,11 +24,17 @@ Next: [[Math 180 Lecture 13]]
 - Two planted trees $(T, r, v_v)$ and $(T, r', (v'))$ are isomorphic if they are
   isomorphic as rooted trees and the isomorphism preserves the ordering of the
   children.
-- We can encode a planted tree as a binary string, with 1s indicating a step
-  away from the root, and 0s indicating a step towards the root.
+- We can encode a planted tree as a binary string, with $1$s indicating a step
+  away from the root, and $-1$s indicating a step towards the root.
+  - This is basically just talking about the change in the depth of the current
+    node as you traverse through the tree.
+  - For clarity, we abbreviate $-1$ as $-$, so $11--1-$ is a valid encoding
 - **Theorem**: Let the code for planted tree be $a_1, \dotsc, a_m$. Then
-  $m = 2n$ where $n = |V| - 1$, and $a_1 + \dotsb + a_k \geq 0$.
+  $m = 2n$ where $n = |V| - 1$, and $a_1 + \dotsb + a_k \geq 0$ for all $k$.
 - **Proof**: Every edge is taken exactly twice. The sum is just the distance to
   the root, so it must be non-negative. The number of planted trees with $n + 1$
   vertices is the number of ballot sequences of length $2n$, or the number of
   Catalan numbers.
+- A _Dyck Path_ is very similar to a ballot sequence, but you take steps of
+  $(1, 1)$ and $(1, -1)$ instead of $1$ and $-$. This results in it drawing out
+  "mountain" shapes.
