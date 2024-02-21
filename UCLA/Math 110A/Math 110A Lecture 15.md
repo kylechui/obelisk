@@ -44,14 +44,16 @@ Next: [[Math 110A Lecture 16]]
     that $(a + I)(b + I) = ab + I = 1_R + I$. Since $a + I$ is nonzero, we know
     $a\notin I$. As $I$ is [[Maximal Ideal|maximal]], we have $I + aR = R$, so
     there exists $i\in I$ and $r\in R$ such that $1_R = i + ar$, or
-    $ar\equiv 1_R\pmod I$.
+    $ar\equiv 1_R\pmod I$. Therefore all nonzero elements in $R / I$ are
+    [[Unit|units]], so $R / I$ is a [[Field|field]].
 
     Consider $r + I$. We have $(a + I)(r + I) = ar + I = 1_R + I$. Therefore
     $r + I$ serves as our multiplicative inverse to $a + I$, and so $R/I$ is a
     [[Field|field]].
 
-  - ($\Leftarrow$) Suppose $R / I$ is a [[Field|field]]. Suppose $a\notin I$.
-    Then $a\not\equiv 0_R\pmod I$, so $a + I$ is nonzero. Since $R / I$ is a
-    field, there exists $b + I\in R / I$ such that
-    $(a + I)(b + I) = ab + I = 1_R + I$. Thus there exists some $i\in I$ such
-    that $ab + i = 1_R$. Therefore $1_R\in aR + I$, so $I + aR = R$, as desired.
+  - ($\Leftarrow$) Suppose $R / I$ is a [[Field|field]]. Let $a\notin I$. Then
+    $a\not\equiv 0_R\pmod I$, so $a + I$ is nonzero. Since $R / I$ is a field,
+    there exists $b + I\in R / I$ such that $(a + I)(b + I) = ab + I = 1_R + I$.
+    Thus there exists some $i\in I$ such that $ab + i = 1_R$. Therefore
+    $1_R\in aR + I$. Since $1_R$ generates $R$, we have $aR + I = R$, so $I$ is
+    [[Maximal Ideal|maximal]].
