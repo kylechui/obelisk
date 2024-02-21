@@ -13,4 +13,5 @@
 
 .markdown-preview-view {
   font-family: "ETBook OT Roman" !important;
+  --link-unresolved-color: red;
 }
