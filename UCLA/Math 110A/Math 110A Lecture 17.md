@@ -56,3 +56,29 @@ Next: [[Math 110A Lecture 18]]
   are [[Irreducibility|irreducible]], then $n = m$ and there exists a
   permutation $\sigma$ on $\{1,\dotsc,n\}$ such that $p_i$ and $q_{\sigma(i)}$
   are [[Associate Polynomial|associates]].
+- **Proof**: Let $S$ be the set of functions in $F[x]$ such that $f$ is not a
+  [[Unit|unit]], is nonzero, and cannot be written as the product of
+  [[Irreducibility|irreducibles]]. We seek to show that $S$ is nonempty. Suppose
+  towards a contradiction that $S$ is empty. Then we choose $f\in S$ to be of
+  lowest degree. Since $f$ is not a [[Unit|unit]] (and nonzero), then
+  $\deg(f)\geq 1$. Note that $f$ cannot be irreducible, since we allow products
+  of just one element and it is in $S$.
+
+  Thus we may write $f = ab$ for some nonzero and non-[[Unit|unit]]
+  $a, b\in F[x]$. Since $\deg(f) = \deg(a) + \deg(b)$, we have
+  $\deg(a), \deg(b) < \deg(f)$. Thus as $f$ has minimal degree in $S$, we know
+  that $a, b\notin S$. Therefore $a$ and $b$ can be written as the product of
+  [[Irreducibility|irreducibles]]. Thus $f$ can be written as the product of
+  [[Irreducibility|irreducibles]], a contradiction. Therefore $S$ is nonempty.
+
+  Suppose $p_1 \dotsb p_n = q_1 \dotsb q_m$, where $p_i, q_j$ are
+  [[Irreducibility|irreducible]]. Note that $p_1\mid q_1 \dotsb q_m$. Thus
+  without loss of generality, we may assume that $p_1\mid q_1$. Since $p_1, q_1$
+  are [[Irreducibility|irreducible]], then $p_1 = c_1q_1$ for some $c_1\in F$.
+  Without loss of generality, let $n \leq m$. Then we repeat this process $n$
+  times, yielding $c_1 \dotsb c_n q_1 \dotsb q_n = q_1 \dotsb q_m$. Cancelling
+  on both sides gives $c_1 \dotsb c_n = q_{n + 1} \dotsb q_m$. Since the left
+  hand side is a unit, we can find some multiplicative inverse $k\in F$. Then
+  $k(q_{n + 1} \dotsb q_{m - 1})$ is a multiplicative inverse for $q_m$, so
+  $q_m$ is a [[Unit|unit]]. However this contradicts that $q_m$ is
+  [[Irreducibility|irreducible]], so we are done.
