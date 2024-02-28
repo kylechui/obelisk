@@ -5,7 +5,7 @@ tags:
   - Math110A
 ---
 
-Next: [[Math 110A Lecture 18]]
+Next: [[Math 110A Lecture 19]]
 
 - Let $f\in F[x]$ and $a\in F$. The remainder of $f$ divided by $x - a$ is
   $f(a)$.
