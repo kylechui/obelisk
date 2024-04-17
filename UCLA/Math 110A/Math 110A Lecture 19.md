@@ -33,3 +33,6 @@ Next: [[Math 110A Lecture 20]]
 - Let $R$ be an [[Integral Domain|integral domain]], and $(a, b)\sim (a', b')$
   and $(c, d)\sim (c', d')$ in its [[Field of Fractions|field of fractions]].
   Then $(ad, bc)\sim (a'd', b'c')$ and $(ad + bc, bd)\sim (a'd' + b'c', b'd')$.
+  - For the rationals $\mathbb{Q}$, we are effectively just saying that the sum
+    of fractions are related, e.g.
+    $\frac{3}{5} + \frac{1}{3}\sim \frac{6}{10} + \frac{3}{9}$.
